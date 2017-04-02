@@ -22,7 +22,7 @@
 }
 
 /* Smartphones (portrait) ----------- */
-@media  screen and  (max-width : 320px) {
+@media  screen and (max-width: 380px) and (min-width: 0px)  {
   .main-intro {
     span {
       bottom: 15%;
@@ -32,5 +32,11 @@
       font-size: 0.9rem;
     }
   }
-
+   md-dialog.md-transition-in {
+      width: 84%;
+      top: -10%;
+   }
+   .md-dialog-container {
+        top: 0;
+   }
 }

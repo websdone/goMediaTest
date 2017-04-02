@@ -140,7 +140,7 @@ angular.module('myApp', ['ngMaterial']).controller('MainController', ['$scope', 
             clickOutsideToClose: true,
             scope: $scope,
             preserveScope: true,
-            templateUrl: '../../popUp.html',
+            templateUrl: '../pages/popUp.html',
             locals: {
                 product: product
             },
