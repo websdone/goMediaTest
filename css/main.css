@@ -74,7 +74,8 @@ header {
     width: 73%; }
 
 md-dialog {
-  max-height: 100% !important; }
+  max-height: 100% !important;
+  max-width: 891px !important; }
   md-dialog.md-transition-in {
     width: 59%; }
     md-dialog.md-transition-in .container {
@@ -94,12 +95,12 @@ md-dialog {
     md-dialog .main-intro h1 {
       font-size: 1rem;
       text-align: center;
-      margin-top: 45%; }
+      margin-top: 39%; }
     md-dialog .main-intro span {
       bottom: -3%;
       left: 3%;
       position: absolute;
-      width: 88%; }
+      width: 94%; }
     md-dialog .main-intro p {
       line-height: 0.5;
       display: inline-block;
