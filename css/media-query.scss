@@ -1,0 +1,36 @@
+
+/* ipad ++ ----------- */
+@media screen and (min-width : 768px) {
+  .col-half {
+    width: 49%;
+    float: left;
+  }
+  .col-half {
+    &:nth-child(even) {
+      margin-left: 2%;
+    }
+  }
+  md-dialog {
+     h1 {
+       font-size: 1.8rem !important;
+       margin-top: 44%;
+     }
+      p {
+        font-size: 1rem;
+      }
+    }
+}
+
+/* Smartphones (portrait) ----------- */
+@media  screen and  (max-width : 320px) {
+  .main-intro {
+    span {
+      bottom: 15%;
+      left: 3%;
+      position: absolute;
+      width: 88%;
+      font-size: 0.9rem;
+    }
+  }
+
+}

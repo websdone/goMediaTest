@@ -1,0 +1,240 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  font-size: 1rem;
+  background-color: #ccc; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+h3, h1 {
+  color: #66bcc1; }
+
+header {
+  width: 100%;
+  text-align: center; }
+  header .logo {
+    margin: 2% auto;
+    display: block; }
+  header .tv-intro {
+    height: 30px;
+    border: 1px solid black;
+    background-color: #424650;
+    margin-bottom: 2%;
+    color: #fff;
+    padding-top: 1%; }
+
+.footer {
+  text-align: center;
+  margin: 80px 0 2%; }
+  .footer h2 {
+    font-size: 24px;
+    margin-bottom: 25px; }
+  .footer img {
+    margin: 0 auto; }
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%; }
+  .container a {
+    color: #66bcc1;
+    font-weight: normal;
+    font-size: 1.2rem;
+    margin: 3.5% 0 0 0;
+    display: block;
+    cursor: pointer; }
+
+.col-half {
+  position: relative;
+  background-color: #fff;
+  margin: 0 0 17px 0;
+  border-radius: 10px; }
+  .col-half p {
+    display: inline-block;
+    width: auto;
+    color: #999; }
+  .col-half .episode-info {
+    position: absolute;
+    bottom: 1px;
+    font-size: 0.85rem;
+    left: 27%; }
+  .col-half img {
+    border-radius: 10px 0px 0px 10px;
+    display: inline-block;
+    width: 23%;
+    vertical-align: bottom; }
+  .col-half .content {
+    float: right;
+    width: 73%; }
+
+md-dialog {
+  max-height: 100% !important; }
+  md-dialog.md-transition-in {
+    width: 59%; }
+    md-dialog.md-transition-in .container {
+      width: 100%;
+      padding: 0;
+      margin: 0; }
+      md-dialog.md-transition-in .container .episodes-info--list {
+        padding: 1% 3%;
+        font-size: 0.8rem; }
+  md-dialog .main-intro {
+    position: absolute;
+    top: 0;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    display: block; }
+    md-dialog .main-intro h1 {
+      font-size: 1rem;
+      text-align: center;
+      margin-top: 45%; }
+    md-dialog .main-intro span {
+      bottom: -3%;
+      left: 3%;
+      position: absolute;
+      width: 88%; }
+    md-dialog .main-intro p {
+      line-height: 0.5;
+      display: inline-block;
+      font-size: 0.8rem; }
+
+.md-accordion .expandCollapse {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+  display: block;
+  margin-top: -2px;
+  margin-left: -2px;
+  overflow: hidden; }
+
+.md-accordion .expandCollapse:active {
+  border: 0px; }
+
+.md-accordion .expandCollapse:before, .md-accordion .expandCollapse:after {
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 32px;
+  text-align: center;
+  -webkit-transition: .3s all ease-out;
+  transition: .3s all ease-out; }
+
+.md-accordion .expandCollapse:before {
+  opacity: 1;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  content: "|";
+  margin-top: -3px; }
+
+.md-accordion .expandCollapse:after {
+  opacity: 1;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  content: "|";
+  margin-left: -3px; }
+
+.md-accordion .active:before {
+  opacity: 1;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  margin-left: 3px;
+  margin-top: 0px; }
+
+.md-accordion .dataContent {
+  background: #F2F2F2;
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: .3s all ease-out;
+  transition: .3s all ease-out; }
+
+.md-accordion .activeContent {
+  height: auto;
+  padding: 20px;
+  display: block; }
+
+.md-toolbar-tools {
+  width: 63%;
+  padding: 11% 0 !important; }
+  .md-toolbar-tools h3 {
+    font-size: 1.1rem; }
+
+.md-accordion md-toolbar {
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+  background-color: rgba(255, 255, 255, 0.87);
+  border-top: 1px solid #ccc;
+  padding: 10px 0;
+  width: 90%;
+  margin: 0 auto;
+  outline: none; }
+  .md-accordion md-toolbar img {
+    width: 40%;
+    margin-right: 3%; }
+  .md-accordion md-toolbar img.play {
+    position: absolute;
+    top: 33%;
+    overflow: hidden;
+    width: 7%;
+    left: 19%; }
+  .md-accordion md-toolbar .dropDown {
+    position: absolute;
+    right: -2%;
+    width: 5%;
+    top: 9%; }
+  .md-accordion md-toolbar md-toolbar-tools {
+    width: 63%;
+    padding: 0 !important; }
+  .md-accordion md-toolbar md-content.md-default-theme, .md-accordion md-toolbar md-content {
+    color: rgba(0, 0, 0, 0.87);
+    background-color: #fafafa; }
+  .md-accordion md-toolbar .content {
+    width: 60%;
+    color: #000;
+    font-size: 0.9rem;
+    line-height: 0.3;
+    letter-spacing: normal; }
+    .md-accordion md-toolbar .content p {
+      display: inline-block;
+      margin: 23% 5% 0 0;
+      font-size: 0.85rem;
+      color: #999;
+      margin-right: 4%; }
+
+/* ipad ++ ----------- */
+@media screen and (min-width: 768px) {
+  .col-half {
+    width: 49%;
+    float: left; }
+
+  .col-half:nth-child(even) {
+    margin-left: 2%; }
+
+  md-dialog h1 {
+    font-size: 1.8rem !important;
+    margin-top: 44%; }
+  md-dialog p {
+    font-size: 1rem; } }
+/* Smartphones (portrait) ----------- */
+@media screen and (max-width: 320px) {
+  .main-intro span {
+    bottom: 15%;
+    left: 3%;
+    position: absolute;
+    width: 88%;
+    font-size: 0.9rem; } }
+
+/*# sourceMappingURL=main.css.map */
