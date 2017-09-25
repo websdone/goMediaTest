@@ -1,6 +1,6 @@
 # GoMediaTestTask
 
-Test developed for GoMedia - skills on responsive stilying and AngularJS 
+Test developed for GoMedia - skills on responsive development and AngularJS v.1
 
 * To run project locally please use terminal http-server that will start in port http://localhost:8080
 
